@@ -1,6 +1,6 @@
 function delColor() {
 	var dropdown = document.getElementById("colorSelect");
-  var selecteIndex = dropdown.selectedIndex;
-	//alert("The selectedIndex is: " + selecteIndex)
-	dropdown.removeChild(selecteIndex);
+  var selectedIndex = dropdown.selectedIndex;
+	//alert("The selectedIndex is: " + selectedIndex)
+	dropdown.removeChild(dropdown.options[selectedIndex]);
 }
