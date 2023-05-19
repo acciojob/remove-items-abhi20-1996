@@ -1,1 +1,6 @@
-//your JS code here. If required.
+function delColor() {
+	var dropdown = document.getElementById("colorSelect");
+  var selecteIndex = dropdown.selectedIndex;
+	//alert("The selectedIndex is: " + selecteIndex)
+	dropdown.removeChild(selecteIndex);
+}
